@@ -1,0 +1,20 @@
+extends ./layout/index
+
+block slider
+    .slider
+        h1 MarkeBlog
+
+block contenido 
+    main
+        .container
+            .row
+                each blogsection in blogsections
+                        .col-md-6.col-lg-4.mb-4.cards-post
+                            .card
+                                img.card-img-top(src=`img/blog-${blogsection.image}.jpg`)
+                                .card-body
+                                    h5= blogsection.nombre
+                                    p=blogsection.content.substr(0,50)+ '...'
+                                    a.btn.btn-primary(href=`posts/${blogsection.slug}`) Go somewhere
+                
+

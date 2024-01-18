@@ -1,0 +1,12 @@
+extends ./layout/index
+block contenido
+    main.container.mt-5
+        .row
+            each post in posts
+                .col-md-6.col-lg-4.mb-4 
+                    .card
+                        img.card-img-top(src=`img/blog-${post.image}.jpg`)
+                        .card-body
+                            h2= posts.nombre
+                            p= posts.content
+                        

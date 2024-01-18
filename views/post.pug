@@ -1,0 +1,12 @@
+extends ./layout/index
+block contenido
+        main.container.mt-5
+            .row
+                .col-md-5
+                    img(src=`/img/blog-${post.image}.jpg`, alt="imagen blog", class='img-fluid')
+                .col-md-7
+                    h1 #{post.titulo}
+
+                    p=post.content
+
+                    p= post.description

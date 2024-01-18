@@ -1,0 +1,98 @@
+:root {
+  font-family: 'Staatliches', cursive;
+  font-family: 'Covered By Your Grace', cursive;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+h1 {
+  font-size: 3.4rem;
+}
+h2 {
+  font-size: 2.4rem;
+}
+h3 {
+  font-size: 3rem;
+}
+
+.icon{
+  color: white;
+  font-size: 50px;
+}
+
+.slider h1 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.slider {
+  background: url(../img//superior.jpg);
+  min-height: 600px;
+  height: 70vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.home {
+  position: relative;
+}
+
+.home .navegacion {
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navegacion-dark {
+  background: black;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.card{
+  width: 350px;
+  height: 350px;
+}
+
+.dark{
+  background-color: black;
+}
+
+header .nav a{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: white;
+  
+}
+
+.cards-post{
+  position: relative;
+  top: -100px;
+  
+}
+
+blockquote {
+  font-weight: bold;
+  line-height: 2;
+}
+
+footer .nav a,
+.copyright {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    color: black;
+}
